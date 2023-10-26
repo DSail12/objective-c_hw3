@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7E1029442AEA3AFA00A59183 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1029432AEA3AFA00A59183 /* main.m */; };
+		7E10294C2AEA3D2100A59183 /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E10294B2AEA3D2100A59183 /* Doctor.m */; };
+		7E1029502AEA3DD400A59183 /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E10294F2AEA3DD400A59183 /* Patient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,11 @@
 /* Begin PBXFileReference section */
 		7E1029402AEA3AFA00A59183 /* objective-c_hw3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "objective-c_hw3"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E1029432AEA3AFA00A59183 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E10294A2AEA3D2100A59183 /* Doctor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Doctor.h; sourceTree = "<group>"; };
+		7E10294B2AEA3D2100A59183 /* Doctor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
+		7E10294D2AEA3D9B00A59183 /* DoctorDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoctorDelegate.h; sourceTree = "<group>"; };
+		7E10294E2AEA3DD400A59183 /* Patient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
+		7E10294F2AEA3DD400A59183 /* Patient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				7E1029432AEA3AFA00A59183 /* main.m */,
+				7E10294A2AEA3D2100A59183 /* Doctor.h */,
+				7E10294B2AEA3D2100A59183 /* Doctor.m */,
+				7E10294D2AEA3D9B00A59183 /* DoctorDelegate.h */,
+				7E10294E2AEA3DD400A59183 /* Patient.h */,
+				7E10294F2AEA3DD400A59183 /* Patient.m */,
 			);
 			path = "objective-c_hw3";
 			sourceTree = "<group>";
@@ -119,6 +131,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E1029502AEA3DD400A59183 /* Patient.m in Sources */,
+				7E10294C2AEA3D2100A59183 /* Doctor.m in Sources */,
 				7E1029442AEA3AFA00A59183 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,4 +1,5 @@
 //
+//
 //  Doctor.m
 //  objective-c_hw3
 //
@@ -8,5 +9,9 @@
 #import "Doctor.h"
 
 @implementation Doctor
-
+- (void)prescribeMedication {
+    if ([self.delegate respondsToSelector:@selector(doctorPrescribeMedication)]) {
+        [self.delegate doctorPrescribeMedication];
+    }
+}
 @end

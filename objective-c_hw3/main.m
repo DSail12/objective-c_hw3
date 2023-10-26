@@ -1,4 +1,5 @@
 //
+//__
 //  main.m
 //  objective-c_hw3
 //
@@ -6,11 +7,20 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Doctor.h"
+#import "Patient.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        Doctor *doctor = [Doctor new] ;
+        
+        Patient *patient = [[Patient alloc] initWithName:@"Иван"];
+        doctor.delegate = patient;
+        [doctor prescribeMedication];
+        
+        Patient *patient2 = [[Patient alloc] initWithName:@"Сергей"];
+        doctor.delegate = patient2;
+        [doctor prescribeMedication];
     }
     return 0;
 }

@@ -1,12 +1,17 @@
 //
+//
 //  DoctorDelegate.h
 //  objective-c_hw3
 //
 //  Created by Eugene Zvyagin on 26.10.2023.
 //
 
-#ifndef DoctorDelegate_h
-#define DoctorDelegate_h
+#import <Foundation/Foundation.h>
 
+NS_ASSUME_NONNULL_BEGIN
 
-#endif /* DoctorDelegate_h */
+@protocol DoctorDelegate <NSObject>
+- (void)doctorPrescribeMedication;
+@end
+
+NS_ASSUME_NONNULL_END
