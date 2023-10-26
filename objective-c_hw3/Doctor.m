@@ -1,5 +1,4 @@
 //
-//
 //  Doctor.m
 //  objective-c_hw3
 //

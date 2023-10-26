@@ -1,5 +1,4 @@
 //
-//
 //  Patient.m
 //  objective-c_hw3
 //
@@ -18,7 +17,7 @@
 }
 
 - (void)takeMedication {
-    NSLog(@"Пациент %@ выпивает пилюлю", self.name);
+    NSLog(@"Пациент %@ получает таблетку", self.name);
 }
 
 - (void)doctorPrescribeMedication {
