@@ -14,11 +14,11 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         Doctor *doctor = [Doctor new] ;
         
-        Patient *patient = [[Patient alloc] initWithName:@"Иван"];
+        Patient *patient = [[Patient alloc] initWithName:@"Леонид"];
         doctor.delegate = patient;
         [doctor prescribeMedication];
         
-        Patient *patient2 = [[Patient alloc] initWithName:@"Сергей"];
+        Patient *patient2 = [[Patient alloc] initWithName:@"Геннадий"];
         doctor.delegate = patient2;
         [doctor prescribeMedication];
     }
